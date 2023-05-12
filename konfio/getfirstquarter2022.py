@@ -32,6 +32,6 @@ cont=0
 for group_name, group_data in grouped:
      cont += 1
      print(f"Group Name: Week {str(cont)} {group_name}")
-     print(f"Group Data:\n{group_data.to_dict}")
+     print(f"Group Data:\n{group_data}")
      print()
-     firebase.post('/firstquarter2022by5days', group_data.reset_index().to_dict('list'))
+     # firebase.post('/firstquarter2022by5days', group_data.reset_index().to_dict('list'))

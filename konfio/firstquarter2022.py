@@ -33,4 +33,4 @@ print(postdata)
 
 # Assumes any auth/headers you need are already taken care of.
 firebase.post('/firstquarter2022', postdata)
-# print(result)
+# print(postdata)
